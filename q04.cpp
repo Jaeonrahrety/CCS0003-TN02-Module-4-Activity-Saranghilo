@@ -30,6 +30,11 @@ int main()
     exactNumOfCan = paintArea/covPerCan;
     cansToBuy = ceil(exactNumOfCan);
     //output
+    cout<<endl<<endl;
+    
+    cout<<"Width = "<<wallWidth<<"; Height = "<<wallHeight<<"; Coats = "<<numOfCoat<<"; Coverage = "<<covPerCan;
+    
+    cout<<endl<<endl;
     
     cout<<fixed<<setprecision(2)<<"Wall Area = "<<wallArea;
     cout<<"; Total paint area = "<<paintArea;

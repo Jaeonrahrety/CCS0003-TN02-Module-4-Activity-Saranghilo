@@ -24,8 +24,6 @@ int main()
     cin>>serPercentage;
     serPercentage= serPercentage/100.0;
     
-    cout<<serPercentage;
-    
     cout<<"Enter number of students sharing the bill: ";
     cin>>numStudents;
     

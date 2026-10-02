@@ -1,12 +1,3 @@
-/******************************************************************************
-
-Ask for x1, y1, x2, and y2 as floating-point values.
-Compute dx = x2 - x1 and dy = y2 - y1.
-Use the distance formula sqrt(pow(dx,2) + pow(dy,2)).
-Display dx, dy, and final distance to three decimal places.
-Also display the rounded whole-unit distance using round().
-
-*******************************************************************************/
 #include <iostream>
 #include <cmath>
 #include <iomanip>

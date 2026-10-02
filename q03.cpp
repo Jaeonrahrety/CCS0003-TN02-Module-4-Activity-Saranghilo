@@ -41,6 +41,7 @@ int main()
     bookFee = preFeeTotal * bookFeePercent;
     total = preFeeTotal + bookFee;
     perPassenger = total/passengers;
+    
     //output
     
     cout<<"Distance charge = "<<fixed<<setprecision(2)<<distCharge;

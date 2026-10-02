@@ -33,7 +33,7 @@ int main()
     
     //output
     
-    cout<<"Weighted grade = "<<fixed<<setprecision(2)<<grade; //weighted grade (2decimals)
+    cout<<"Weighted grade = "<<fixed<<setprecision(2)<<grade;
     cout<<"; Rounded = "<<(int)round(grade);
     cout<<"; Cast to int = "<<(int)grade;
     

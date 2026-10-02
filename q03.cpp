@@ -4,7 +4,8 @@
 using namespace std;
 int main()
 {
-    double basefare, distance, ratePerKM, tollFee, bookFeePercent, passengers;
+    int passengers;
+    double basefare, distance, ratePerKM, tollFee, bookFeePercent;
     double distCharge, preFeeTotal, bookFee, total, perPassenger;
     
     cout<<"Enter base fare: ";

@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    double mealPrice, serPercentage, serPercentage1, subtotal, serCharge, finalBill, sharePerStud;
+    double mealPrice, serPercentage, subtotal, serCharge, finalBill, sharePerStud;
     int quantityOrd, numStudents;
     
     cout<<"Enter meal price: ";
@@ -14,23 +14,21 @@ int main()
     
     cout<<"Enter service charge percentage: ";
     cin>>serPercentage;
-    serPercentage1= serPercentage/100.0;
     
     cout<<"Enter number of students sharing the bill: ";
     cin>>numStudents;
     
-    //subtotal, serCharge, finalBll, sharePerStud
+    cout<<endl<<endl;
+    cout<<fixed<<setprecision(2)<<"Meal Price = "<<mealPrice<<"; Quantity = "<<(int)quantityOrd<<"; Service = "<<(int)serPercentage<<"%"<<"; Students = "<<numStudents;
+    
+    //calculation
     
     subtotal = mealPrice*quantityOrd;
-    serCharge = subtotal*serPercentage1;
+    serCharge = subtotal*(serPercentage/100.0);
     finalBill = subtotal+serCharge;
     sharePerStud = finalBill/numStudents;
     
     //output
-    cout<<endl<<endl;
-    
-    cout<<fixed<<setprecision(2)<<"Meal Price = "<<mealPrice<<"; Quantity = "<<(int)quantityOrd<<"; Service = "<<(int)serPercentage<<"%"<<"; Students = "<<numStudents;
-    
     cout<<endl<<endl;
     
     cout<<"Subtotal = "<<fixed<<setprecision(2)<<subtotal;

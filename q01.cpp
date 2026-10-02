@@ -11,7 +11,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 using namespace std;
 int main()
 {
-    float mealPrice, serPercentage, subtotal, serCharge, finalBill, sharePerStud;
+    double mealPrice, serPercentage, subtotal, serCharge, finalBill, sharePerStud;
     int quantityOrd, numStudents;
     
     cout<<"Enter meal price: ";
